@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  position: fixed;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+header span {
+  display: inline-block;
+  color: MediumAquamarine;
+  padding: 20px 20px 5px 20px;
+}
+header nav {
+  width: 95%;
+  text-align: right;
+  padding: 5px 10px 3px 5px;
+}
+a {
+  color: black;
+}
+.main {
+  display: inline-flex;
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+.column.large {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 630px;
+  margin: 20px 0 0 30px;
+}
+.column.medium {
+  flex-direction: column;
+  width: 300px;
+  margin-left: 20px;
+}
+.column.small {
+  flex-direction: column;
+  width: 240px;
+  margin-left: 30px;
+}
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.main.image {
+  display: flex;
+  background: url("../../resources/images/mainstory.png") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+h3 {
+  font-family: Georgia;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  margin: 20px 0 0 20px;
+}
+.orca.title, .burger.title {
+  display: inline-flex;
+  width: 300px;
+  margin-left: 5px;
+}
+.orcatext, .burgertext {
+  display: inline-flex;
+  width: 300px;
+  margin-left: 5px;
+}
+.fallseason.image {
+  display: inline-flex;
+  flex-direction: column;
+  background: url("../../resources/images/fallseason.png") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+  text-align: center;
+  margin-left: 5px
+}
+.fallseason.image p, .camera.image p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.camera.image {
+  display: inline-flex;
+  flex-direction: column;
+  background: url("../../resources/images/camera.png") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+  text-align: center;
+  margin-left: 5px;
+}
+.fbi.story h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+}
+.catceo.image {
+  display: flex;
+  background: url("../../resources/images/catceo.png") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+}
+.catceo.image h3 {
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin: 120px 0 0 5px;
+}
+.cookie {
+  padding-top: 10px;
+}
+.newsbites h3 {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.bites li {
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: bold;
+  color: Dimgray;
+  background-color: WhiteSmoke;
+  border-bottom: 1px solid black;
+  text-align: left;
+  padding: 10px 5px;
+  list-style-type: none;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: normal;
+  align-items: center;
+  background-color: MediumAquamarine;
+  height: 200px;
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+}
+.navfooter span {
+  display: inline-block;
+  color: white;
+  padding: 20px 20px 5px 20px
+}
+.navfooter nav {
+  display: inline-block;
+  margin-left: 30px;
+}
+.titlefooter {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+}
+.copyright {
+  padding-top: 20px;
+}
